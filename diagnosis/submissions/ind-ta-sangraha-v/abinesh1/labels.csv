@@ -1,0 +1,151 @@
+doc_id,read,verdict,diseases,evidence,hex,note
+ba0521a76a80c6ba,full,fix,A6,A6 x1: @179 «்கைஃ⏎»,A6: @179 U+0BC8 U+0B83,"lost colon (ஃ for :); space inserted after every '.' (எம். எல். ஏ. ,)"
+803e203a2c7d60da,full,fix,A6,A6 x1: @8 «ுறைஃ⏎»,A6: @8 U+0BC8 U+0B83,lost colon; starts at 'method:' so the ingredients section is missing
+b696ac9e380537d5,full,fix,C1,"C1 x1: @2256 «நியூஸ்18 தமிழ்நாடு தொலைக்காட்சியை, ARASU» | C1 related-headlines block @1239 «வீரன் அழகுமுத்துகோன் பிறந்தநாள்» and site footer @2053 «உலகம் முதல் உள்ளூர் வரை»",,article then 10 related headlines and News18 channel footer; 'QR-கோடு' is fine
+cfc9ea4c1e72985a,full,clean,,,,
+07595651f9328e9f,full,drop,D4;B5,D4 @421 «ஒரு நாளைக்கு அங்காரா இஸ்தான்புல் மற்றும் இஸ்தான்புல்-அங்காரா இடையே» ; @2696 «முதல் பட்டம் உறவினர்கள்» ; @3031 «பயணிகளுக்கு% 60 தள்ளுபடி» ; @2475 «TLஇருக்கிறது» | B5 broken table rows @2135 «|இஸ்தான்புல் (எஃப்)»,,machine translation of a Turkish rail page (economy class rendered as பொருளாதாரம்)
+70717a9a2d8c2b37,full,fix,A6,A6 x2: @418 «ரம்ஃ⏎» ; @646 «ஆகஸ்D»,A6: @418 U+0BCD U+0B83 ; @646 U+0B86 U+0B95 U+0BB8 U+0BCD U+0044,lost colon after «ஸ்கோர் விபரம்» with the score table missing; Latin D for ட் in ஆகஸ்D
+04920dfebbb8d2e4,full,clean,,,,
+28e55a22748757af,full,fix,A6;C1,A6 x1: @393 «்கைஃ⏎» | C1 x1: @2794 «Sign up to receive our newsletter in you»,A6: @393 U+0BC8 U+0B83,lost colon; newsletter footer
+b314ba477f78d672,full,fix,A6,A6 x1: @10 «்சிஃ »,A6: @10 U+0BBF U+0B83,lost colon in dateline
+7cce84d0d76b0c30,full,fix,A6;B4;C1,B4 x16: @180 «\n» ; @257 «\n» ; @294 «\n» | A6 lost colon @2378 «வேண்டாம்ஃ» | C1 English page title @77 «India vs Australia: Matthew Hayden» ; caption @519 «© Screengrab/YouTube» ; related links @2207 «சேவாக்கில் வீடியோவிற்கு ஹெய்டன்»,,literal \n instead of line breaks throughout
+0c9fc3df8126de9e,full,clean,,,,
+2bd051878060e7e3,full,fix,A6;C1;G4,A6 x1: @6 «்னைஃ » | C1 x1: @1813 «Sign up to receive our newsletter in you» | G4 URL split by inserted spaces @1735 «https://study. iitm. ac. in/es/»,A6: @6 U+0BC8 U+0B83,lost colon in dateline; newsletter footer
+73b0ad27a538f16e,full,fix,A6;C1,A6 x1: @822 «வதுஃ⏎» | C1 x1: @2563 «Sign up to receive our newsletter in you»,A6: @822 U+0BC1 U+0B83,lost colon; newsletter footer
+d883b4426f420c7c,full,fix,C1,"C1 unrelated headline at top @0 «""தற்கொலை செய்துக் கொள்ளாமல் காப்பாற்றியது வடிவேலு தான்""» ; title printed twice @93 «கோலி தலைமையிலான இந்திய அணிக்கு எச்சரிக்கை விடுக்கும் சேவாக்! எதற்காக தெரியுமா?»",,
+24d57d294128d901,full,clean,,,,
+f642118c72feadba,full,fix,C1,C1 unrelated headline at the end @834 «நம்ம வீட்டு பிள்ளை படத்தின் எங்க அண்ணன் பாடல் வெளியீடு!»,,
+518de71ce8f6c595,full,clean,,,,
+8a913e9545fa0e4a,full,fix,G3,G3 reply lines missing after @5153 «சாந்திதேவி கண்ணாடியைக் கழற்றும்போது» ; question missing before @8196 «நிதானமாக அவள் கேட்பது» ; answer missing before @7865 «அவள் பொருட்படுத்தாததோர் அலட்சியத்துடன்»,,"novel excerpt; short dialogue lines dropped by a line filter, fix upstream; prose itself is good"
+9872bc3de5476a56,full,fix,A6,A6 x1: @1366 «வதுஃ »,A6: @1366 U+0BC1 U+0B83,lost colon
+f36561b899eeedf9,full,fix,A6;C1,A6 lost colon in dateline @93 «சென்னைஃ» | C1 unrelated headline at top @0 «- #Chennaiதிடீரென» ; related headline mid-article @608 «டிசம்பர் 24ஆம் தேதி எம். ஜி. ஆர். நினைவுநாள் மரியாதை!»,,'..' written as '. .' throughout (space-after-period artifact)
+a416ba8690b4a89b,full,fix,G1;A6,G1 x1: @716 «ாடிிய» | A6 stray ஈ where a comma belongs @321 «தாளித்துஈ»,G1: @716 U+0BBF U+0BBF,doubled vowel sign in ஜாடிியில்
+c7e4a7ea75c2044e,full,fix,A6;C1;G1,A6 x1: @565 «வதுஃ⏎» | C1 x1: @1929 «Sign up to receive our newsletter in you» | G1 x2: @177 «்லுார» ; @383 «்லுார»,A6: @565 U+0BC1 U+0B83 | G1: @177 U+0BC1 U+0BBE ; @383 U+0BC1 U+0BBE,lost colon; newsletter footer; ு+ா written for ூ (கல்லுாரி)
+c50a5bdd4a046f6d,full,clean,,,,
+34e3b93f0cec8833,full,drop,G1;A6;D3,G1 x3: @76 «ஃ 'ிஃ» ; @407 «]  ாள» ; @552 « டூேத» | A6 OCR read Tamil numerals as letters @354 «(ககூ)» ; @908 «எஅ. சுவகதமென்பது» ; OCR junk @70 «அன்ஃ 'ிஃ 11» | D3 Sanskrit verses in Devanagari @413 «वृक्षांतरात्सजातीयो»,G1: @76 U+0027 U+0BBF ; @407 U+0020 U+0BBE ; @552 U+0BC2 U+0BC7,bad OCR of an old Vedanta book; lines broken mid-word
+d6012ebc4486f4cd,full,clean,,,,
+facaa5118b633598,full,fix,A6,A6 x1: @200 «்னைஃ⏎»,A6: @200 U+0BC8 U+0B83,"lost colon in dateline (the C1 hit is the dateline, not boilerplate)"
+4608c609b5c84b77,full,clean,,,,
+3ec2b85b9976a2dd,full,drop,C5,C5 six unrelated headlines and nothing else @0 «புதிதாக கட்டப்படும் நடிகர் சங்க கட்டிடத்திற்கு»,,
+70f969af2a8a68ae,full,clean,,,,
+b218f2cc1dcd0c99,full,clean,,,,
+a68cdd4842cf41fb,full,clean,,,,
+4f8473dc622b4b45,full,clean,,,,
+bf100246b5e0f086,full,clean,,,,
+7dc9182ca432859e,full,drop,C5,C5 headline teasers ending in '....' @113 «கள்ளக்குறிச்சி மாவட்டம் கனியாமூர்»,,
+65126393f0ef52c9,full,fix,A6;C3,A6 x2: @745 «ாறுஃ⏎» ; @2135 «்புஃ⏎» | C3 x1: ends @3864 «ும் பிரார்த்தனை தலமாகவும்» | C3 also starts mid-paragraph @0 «தயாரிப்பதற்கான பொருட்களோ அவர்களிடம் இல்லை»,A6: @745 U+0BC1 U+0B83 ; @2135 U+0BC1 U+0B83,lost colons in section heads; spaces inside words (உ ள்ளடக்கிய)
+9313c79e806f0074,full,fix,C1,C1 scan footer @1564 «Digitized By Roja Muthiah Research Library»,,"OCR of Siddha verse; many words split by spaces (மைந் தாகே ளு), stray 'O'"
+81e45dba89f683a1,full,fix,C4;G1,"G1 x1: @1328 « நுாற» | C4 Islamic text on fasting, then unrelated local news from @1070 «மடிப்பாக்கம் : மடிப்பாக்கம் பகுதியில்»",G1: @1328 U+0BC1 U+0BBE,split at the boundary; ு+ா for ூ (நுாற்றுக்கணக்கான)
+24c7d9dfe07a52f9,full,clean,,,,
+9277c615355d0c15,full,fix,C1,C1 x1: @2285 «Sign up to receive our newsletter in you»,,newsletter footer
+78a1b0459d5efe00,full,clean,,,,
+00b0ea09f19c54e1,full,fix,B4;G1;C1,"B4 x7: @65 «\n» ; @97 «\n» ; @380 «\n» | G1 x1: @237 «ிவி்த» | C1 timestamp header @67 «[Tuesday, 2012-07-10 03:21:39]»",G1: @237 U+0BBF U+0BCD,literal \n throughout; pulli misplaced in தெரிவி்ததுள்ளார்
+92ab99210be56e29,full,fix,C1,C1 related link at the end @1714 «Also Read: பெற்றோரை இழந்த குழந்தைகளுக்கு»,,"toll-free bank numbers are public, not F1"
+3de06932cb581417,full,clean,,,,
+caf1190306aaaad1,full,fix,B4;C1,B4 x23: @58 «\n» ; @107 «\n» ; @200 «\n» | C1 page title @0 «த.தே.கூ அலுவலகம்; தமிழர்களுக்கு வைக்கும் ஆப்பு? | TamilSpy»,,literal \n throughout; title repeated after the page title
+167e43f7db35eb21,full,clean,D3,D3 English glosses in brackets @185 «பாரம்(forum)» ; @884 «( Database Management System)»,,"lecture transcript; may have ASR errors (படத்திற்கு for பாடத்திற்கு, மாடியுள் for module)"
+736e4675432e6fd3,full,fix,C1,"C1 blog footer @616 «You can leave a response, or trackback from your own site.»",,
+b099a8117b209486,full,clean,,,,
+ad52606f936aa623,full,fix,C1,C1 related-article insert @804 «இதையும் பாருங்க ; மஞ்சுமாவை»,,
+7a1cf873a766a753,full,fix,G3,G3 list items and a quote missing before @1184 «கண்காணிப்புக் குழுவின் இணைத் தலைவர் ஐரின் பெர்னாண்டெஸ் கூறினார்.»,,Malaysian Tamil news; lines dropped by a line filter
+6419ae1b3e4a2f43,full,clean,,,,
+97f85878476cd809,full,fix,A6;C1;D5,A6 x22: @1170 «ாறுஃ⏎» ; @1630 «ாம்ஃ⏎» ; @1652 «்பைஃ » | C1 read-more link @2179 «(மேலும் வாசிக்கஃ சிறுநீர்ப்பாதைத் தொற்று சிகிச்சை)» | D5 @2764 «உங்கள் குழந்தையின் வழக்கமான சிறுநீரகவியலை கவனிக்கவும்»,A6: @1170 U+0BC1 U+0B83 ; @1630 U+0BCD U+0B83 ; @1652 U+0BC8 U+0B83,22 lost colons; health article translated from English
+d41e60b4fa36254c,full,drop,G1,G1 x1: @665 «மதி்ப» | G1 more lost pulli @103 «எனும பேரில்» ; @161 «சோதனைகளினபோது» ; @560 «வஙகி» ; @914 «ஸ்டாலின தலைமையில்»,G1: @665 U+0BBF U+0BCD,"starts mid-story («இதனையடுத்து ,»); lost pulli can't be restored safely"
+10359d774ad3b025,full,clean,,,,
+ff528c9a3bb54906,full,fix,C1;G3,C1 page header mid-text @906 «உலோதாதித்தன் கதையுரைத்த அத்தியாயம் 229» | G3 verses with lines missing @262 «மங்கைபாகனை வாழ்த்துறாக்»,,OCR of Kasi Kandam verse; போகினிகள் vs யோகினிகள் OCR slip
+9a112ddbdcf4b4d2,full,fix,A6;C1;C3,"A6 x1: @1616 «ும்ஃ » | C3 x1: ends @4565 «கவமயிலும் இரண்டாமடியிலும்» | C1 page header @2230 «திருவரங்கத்தந்தாதி - எவு,எண்» | A6 Tamil numerals OCR'd as letters @21 «எஎ, எவு»",A6: @1616 U+0BCD U+0B83,OCR of a verse commentary; words split by spaces (எல் லாந்); text lost at page breaks
+73f8a498cedb198b,full,fix,C1,C1 site tag at the end @3189 «....!! - Athirady News ;»,,"digits glued to words (கொண்டு3குழந்தைகளுடன்); C3 hit is the site tag, not truncation"
+5ac08ceb0db9c1ca,full,fix,A6,A6 x3: @1673 «ார்ஃ » ; @2752 «ார்ஃ » ; @3703 «ும்ஃ »,A6: @1673 U+0BCD U+0B83 ; @2752 U+0BCD U+0B83 ; @3703 U+0BCD U+0B83,lost colons
+883943b037e88c51,full,clean,,,,
+4378ea572522af80,full,clean,,,,
+1cce2a46807b7b14,full,fix,G1;A6,G1 x1: @1376 «வா ே » | A6 page numbers OCR'd as letters @2362 «ங ங ச»,G1: @1376 U+0020 U+0BC7,OCR of Sivagnana Bodham commentary; words split by spaces (பொ ருளை)
+f5f3259826c724cb,full,fix,A6,A6 x1: @160 «ரணிஃ⏎»,A6: @160 U+0BBF U+0B83,lost colon in dateline
+4452face9f25301c,full,clean,,,,
+60d23b63db1f5dfe,full,drop,C5,"C5 four sexual clickbait headlines, no body @30 «பெண்கள் உச்சகட்ட இன்பம் எட்ட 7 வழிகள்»",,
+492ec7b8ce35e05d,full,fix,G3,"G3 opening of the quote missing @112 «ஆனால்அதிலிருந்து மீண்டு வர இஸ்லாம் எனக்கு பெரிதும் உதவியது"" என்று»",,
+9a017d6ab6910ee5,full,fix,C1;A6,A6 x1: @623 «ூஸ்ஃ » | C1 related headlines mid-article @588 «சபரிமலை பக்தர்களுக்கு ஹேப்பி நியூஸ்ஃ» ; @890 «சீனாவின் திட்டங்களை தகர்க்க இந்தியா போட்ட அதிரடி பிளான்!»,A6: @623 U+0BCD U+0B83,
+4c521554434e6a93,full,clean,,,,
+89879512ea611689,full,fix,G4,G4 decimal split by an inserted space @100 «படம் 2. 0»,,film title 2.0 printed as '2. 0'
+3ace6b49f29d4b1c,full,fix,C1,C1 social follow footer @1103 «மௌவலின் தினசரி செய்திகளை உடனுக்குடன் பெற»,,
+8554d04583aaec64,full,clean,,,,
+eaa63ec6f1fb9da7,full,clean,,,,
+e4ed68551562d60d,full,drop,C5,C5 headline list with teasers @85 «டென்மார்க்கில் தேசிய மாவீரர் நாள்»,,
+b071a9823a07602f,full,clean,,,,
+8fd2711299925f32,full,drop,D4;A6,A6 x2: @1838 «ார்ஃ⏎» ; @3938 «ார்ஃ⏎» | D4 numbers garbled @306 «2 மில்லியன் மக்கள் வசிக்கும் நகரத்தில் சராசரியாக 16 மில்லியன் மக்கள்» ; title split @846 «பேராசிரியர். டாக்டர்.» ; fragments @7558 «அமைப்பு பாதுகாப்பு.» ; @4363 «'கேத்தனர்கள் அழிவால்»,A6: @1838 U+0BCD U+0B83 ; @3938 U+0BCD U+0B83,"machine translation of a Turkish news site (Turkish number format 1.015, 1,5)"
+78a681d105a4a147,full,fix,G4,G4 decimal split @96 «ரூபாய் 9. 46 லட்சத்தில்»,,
+a48cbb35f5ab2603,full,fix,A6;C1;G3,A6 x2: @17 «தல்ஃ » ; @4379 «கள்ஃ⏎» | C1 x1: @4366 «பிற செய்திகள்ஃ» | C1 BBC footer with the links stripped @4366 «பிற செய்திகள்ஃ» | G3 says 3 documents but lists 2 @1163 «அதற்கு 3 ஆவணங்கள் தேவை.»,A6: @17 U+0BCD U+0B83 ; @4379 U+0BCD U+0B83,lost colons; C3 hit is the footer
+086f4273ad802fea,full,fix,C1,C1 x4: @237 «Don't Miss!» ; @575 «- Finance ஈஷா அம்பானி-க்கு புதிய பதவி. .» ; @669 «- Travel என்னப்பா கூட்டத்தையே காணோம் - வ» | C1 nav block @0 «- 3 hrs ago நம்பி வந்த வாடிக்கையாளரை» ; @237 «Don't Miss!» ; image note @3560 «Note: Images used are for representational purpose only.» ; trailing headline @3618 «இந்தியாவில் லாரிகளுக்கு ஏசி கட்டாயம்!»,,
+d67c61e798d5f64e,full,clean,,,,
+7582703c5da3e94d,full,fix,C1,C1 x5: @422 «- News சாக்லேட் டே கொண்டாடணும்னு ஆசையாத்» ; @524 «- Automobiles நம்பி வந்த வாடிக்கையாளரை ஏ» ; @649 «- Finance ஈஷா அம்பானி-க்கு புதிய பதவி. .» | C1 nav block @0 «- 3 hrs ago 144MP கேமரா.» ; photo credit @4774 «புகைப்படங்கள் : மைபிராட்பேண்ட்»,,"C3 hit is the photo credit, not truncation"
+6a1332ae26a041ff,full,fix,C1,C1 English image caption at the top @0 «Messi with family in The Best Player Award ( AP )»,,
+c7aaa41c204da816,full,clean,,,,
+000df59cddcda6ea,full,drop,C1;C4,C1 production cues @2525 «பைட் தங்கமணி நாற்பது செகண்ட்ஸ்» | C4 two sentences interleaved @3084 «மின்கட்டணம் சமூக ஐம்பது சதவீதம் வலைதளத்தில் குறைந்துள்ளதாக»,,"All India Radio bulletin script: no punctuation, spaces missing, lines broken after 'திரு'; C3 hit is not truncation"
+caec687442776b1a,full,fix,C1,"C1 x1: @1786 «நியூஸ்18 தமிழ்நாடு தொலைக்காட்சியை, ARASU»",,News18 footer
+2ef5e48d8a4e444c,full,fix,A4;C3,"A4 x1: @1853 «⟦U+FFFD⟧» | C3 x1: ends @1830 «உரிமை பாதுகாக்கப்படும்.⟦U+FFFD⟧,» | C3 list of '75 points' stops after a few items @1809 «இஸ்லாமியப் பெண்களின் உரிமை பாதுகாக்கப்படும்.»",A4: @1853 U+FFFD,
+6810c612520fe2b8,full,fix,C1,"C1 x1: @1273 «நியூஸ்18 தமிழ்நாடு தொலைக்காட்சியை, ARASU» | C1 @1060 «Also see:» before the News18 footer",,
+264bbd674ef489c4,full,fix,G1,G1 x4: @9 «்துார» ; @27 «ுதுார» ; @123 «்துார»,G1: @9 U+0BC1 U+0BBE ; @27 U+0BC1 U+0BBE ; @123 U+0BC1 U+0BBE,"ு+ா written for ூ (கடம்பத்துார், வெண்மனம்புதுார்)"
+42686daa22d0e057,full,fix,C1;C3,C3 x1: ends @4850 «னும் - என்கின்ற; கரி-யானை» | C1 section header mid-text @2320 «திருக்கூட்டச் சருக்கம்»,,"OCR of a verse commentary; starts mid-text; the ஃ in 'ஹர : ஹரஃ' is Sanskrit visarga, not a lost colon (side effect for the ஃ medicine)"
+bb1f46dbc57d0c5f,full,fix,G3,"G3 list of guests cut, the text resumes mid-list @253 «ஜிப்ரி(LLB),மற்றும்»",,
+d2fdc6d7326f4472,full,clean,,,,
+368e7b6a663593c7,full,fix,A6;C1;C3,"A6 x2: @243 «ாவனஃ⏎» ; @689 «ிதிஃ » | C3 x1: ends @3607 «க்கத்தைக் கொடுப்பதாகவும்,» | C1 page header mid-text @1777 «அடிப்படை இயந்திரவியல்»",A6: @243 U+0BA9 U+0B83 ; @689 U+0BBF U+0B83,OCR of a physics textbook; starts mid-word («யறுத்துக் கூறியவர்»); formula lost («); என்னும் முடுக்கத்தை»)
+e5bdb400d14b4bde,full,fix,A6,A6 x2: @22 «்துஃ » ; @97 «்லிஃ⏎»,A6: @22 U+0BC1 U+0B83 ; @97 U+0BBF U+0B83,lost colons in the title and dateline (the C1 hit is the dateline)
+8b6b217ae67c4717,full,fix,G1;A6,G1 x16: @290 «றனா்.» ; @669 «்னோா்» ; @670 «னோா்க» | A6 x1: @1434 «்குஃ⏎»,G1: @290 U+0BBE U+0BCD ; @669 U+0BCB U+0BBE ; @670 U+0BBE U+0BCD | A6: @1434 U+0BC1 U+0B83,"ர் written as ா் throughout (வருகின்றனா், முன்னோா்), a legacy-font artifact; lost colon"
+5ec82c27d7df0286,full,drop,D4;A6,A6 x2: @4187 «்லைஃ » ; @4875 «ளதுஃ⏎» | D4 @95 «ரஷ்யாவில் மிக அழகான இடங்களில் ஒரு பெரிய எண் இல்லை» ; @261 «நாம் பெல்கோரத் நகரத்தில் சிறந்த உணவகங்கள் ஒரே பற்றி பேசுகிறேன்»,A6: @4187 U+0BC8 U+0B83 ; @4875 U+0BC1 U+0B83,"machine translation of a Russian restaurant page; restaurant phone numbers are business numbers, not F1"
+fc2c4c04065b0486,full,fix,G3,"G3 starts mid-story @0 «இந்த நிலையில், அமெரிக்காவின்»",,
+ec6cce1518170a6b,full,fix,C1;C2;C3,C3 starts mid-sentence @0 «உலா வருகிறது.» | C2 teaser lines repeated @66 «அடுத்து வெளியேற்றப்படுபவர் வரிசையில்» | C1 social footer @987 «மௌவலின் தினசரி செய்திகளை»,,
+fa6df887b3a3ed81,full,drop,B4;D2;C1;G3,"B4 x47: @198 «\n» ; @300 «\n» ; @389 «\n» | D2 romanised Tamil headings @101 «Clopam payanpaadugal, marundhalavu» | C1 survey questions @4465 «தயவு செய்து சர்வேயில் ஈடுபட்டு» | G3 lists emptied @1304 «பின்வருபவைகளுக்கு சிகிச்சையளிக்க Clopam பயன்படுகிறது -»",,drug page template; literal \n throughout
+dee696c1d3059391,full,fix,G1;A6,G1 x6: @104 «்லுார» ; @429 «்லுார» ; @543 «்லுார» | A6 x1: @751 «்புஃ »,G1: @104 U+0BC1 U+0BBE ; @429 U+0BC1 U+0BBE ; @543 U+0BC1 U+0BBE | A6: @751 U+0BC1 U+0B83,ு+ா written for ூ (கல்லுாரி); lost colon
+3c3a2a0df8ad93a1,full,fix,G4,G4 decimals split @654 «199. 5 சிசி» ; @705 «24. 5 PS» ; @727 «18. 5 Nm»,,
+b2f3b49721ef4f89,full,fix,A6;D3,A6 ASCII transliteration marks inside words @0 «க்ருத்'த்'யத்'கௌ'ரீ» ; @237 «ஸதா'zக்ஷி» | D3 Sanskrit stotra in Tamil script with Tamil commentary @76 «ஸ்மராரே : ஸ்படிகமணி»,,"the ஃ here is Sanskrit visarga, not a lost colon (side effect for the ஃ medicine)"
+80b652391f329f75,full,fix,G3,G3 vote-count list items missing before @2186 «- 2 பேர் வாக்களிக்கவில்லை»,,
+5f9924a721d815ea,full,fix,A6;C1,A6 x1: @439 «்புஃ⏎» | C1 x1: @1034 «Sign up to receive our newsletter in you»,A6: @439 U+0BC1 U+0B83,lost colon; newsletter footer
+939cefd2cf7ac11d,full,fix,A6;C1;C4;G4,"A6 x14: @190 «ூர்ஃ⏎» ; @1826 «ூர்ஃ⏎» ; @3512 «ூர்ஃ⏎» | C1 search-page header @0 «நீங்கள் தேடியது ""திருப்பூர்""» | C4 about 10 separate news items joined, each opens with a teaser line @1724 «டையிங் மற்றும் பிரிண்டிங் சேவைகளுக்கான» | G4 @16401 «ரூ. 28. 17 கோடி» ; @1446 «www. dge. tn. gov. in»",A6: @190 U+0BCD U+0B83 ; @1826 U+0BCD U+0B83 ; @3512 U+0BCD U+0B83,split into separate items; 14 lost colons in datelines
+bbc0131080e6d45e,full,fix,A6,A6 x2: @9 «ாடிஃ » ; @766 «வதுஃ »,A6: @9 U+0BBF U+0B83 ; @766 U+0BC1 U+0B83,lost colons in the dateline and before the police quote
+47490b30cdfed903,full,fix,A3,A3 a letter replaced by '>' in legacy-encoding conversion @356 «கல்லூ>யில்தான்» ; @994 «ஹ>சரண்»,,spaces lost at old line breaks (விளம்பரங்களில்அசத்திக்)
+7ceccad5782fc405,full,fix,C3,C3 quote opened and the text stops before it closes @957 «என்று முடிவு செய்தேன்.»,,
+2f1605fd86c3cdf6,full,drop,D4,"D4 Sivas rendered as 'Shivas' @964 «நமது நாட்டிற்கும் சிவன்களுக்கும்» ; fragments @244 «மூன்றாவது கூட்டம். வெளிநாட்டு சந்தை""» ; dangling @1367 «நாங்கள் உங்களுக்கு ஆதரவளிக்க முடியும். கூறினார்.»",,machine translation of a Turkish rail site
+615f069b83832afe,full,clean,,,,
+b9e643d1322844b7,full,clean,,,,
+5a90191547d16576,full,drop,B4;A6;F3,B4 x9: @52 «\n» ; @229 «\n» ; @515 «\n» | A6 x11: @60 «்விஃ » ; @236 «ில்ஃ » ; @39 «அடக்கப்படுமா?\nகேள்விஃ» | F3 caste-directed slurs and a call to suppress a caste group @1463 «கைபர்களின் கொழுப்பு» ; @870 «அடக்கப் பட வேண்டாமா?»,A6: @60 U+0BBF U+0B83 ; @236 U+0BCD U+0B83 ; @39 U+0B85 U+0B9F U+0B95 U+0BCD U+0B95 U+0BAA U+0BCD U+0BAA U+0B9F U+0BC1 U+0BAE U+0BBE U+003F U+005C U+006E U+0B95 U+0BC7 U+0BB3 U+0BCD U+0BB5 U+0BBF U+0B83,"political polemic; literal \n throughout; lost colons (கேள்விஃ, பதில்ஃ); F3 is a judgment call"
+24ec1b20186fa9ea,full,drop,C2;C5,C2 x1: x3 @0 «காலாண்டு முடிவுகள்!» | C5 teaser stub with no article body @20 «எந்த நிறுவனப் பங்கு எப்படி?»,,
+1e486125322b4217,full,fix,A6,A6 x1: @12 «மலைஃ⏎»,A6: @12 U+0BC8 U+0B83,lost colon in dateline
+392b30c8f372490c,full,fix,C1;G3,C1 x6: @0 «Don't Miss!» ; @220 «- Technology 144MP கேமரா. . 7900mAh பேட்» ; @339 «- Automobiles நம்பி வந்த வாடிக்கையாளரை ஏ» | C1 nav block @0 «Don't Miss!» | G3 fragments left at the end @1569 «நிகழ்ச்சி.»,,
+60c6714c9fff6fc3,full,fix,A6;G3,A6 x2: @218 «தடைஃ⏎» ; @786 «்விஃ⏎» | G3 sentence about the court notice has lost its subject @993 «இந்நிலையில் இந்த நோட்டீஸ் குறித்து»,A6: @218 U+0BC8 U+0B83 ; @786 U+0BBF U+0B83,lost colons in subheads
+21f0e929d3beefe8,full,fix,A6;C1,"A6 x1: @2107 «வதுஃ-» | C1 search-page header @0 «நீங்கள் தேடியது ""கவாத்து பணி தீவிரம்""»",A6: @2107 U+0BC1 U+0B83,lost colon; subheadings merged into the running text
+b017d37fe1c16858,full,clean,,,,
+0144a10753d9b239,full,fix,C4,"C4 an MP's thank-you note, then an unrelated spiritual quote @892 «அமைதியை ஆயுதமாக கொண்டு அன்பு என்னும்»",,
+e990610abcbd181a,full,clean,,,,
+86819c4e5483d8a6,full,fix,C3,"C3 only the intro paragraph is left; the lead about soya is never covered @0 «உடல் பருமன் மிக்கவர்கள், சோயா போன்று»",,
+bce0fb0bbf15109d,full,clean,,,,
+053c91629d3c6981,full,clean,,,,
+a433e6b081fd240c,full,fix,A6;C1;C4;G1;G4,"A6 x1: @3170 «்டைஃ⏎» | G1 x3: @1674 «ல் ேப» ; @13256 «ரை ெர» ; @15264 «ல் ெக» | C4 about 11 district news items joined, each with two summary bullets @1716 «- சிவகங்கையில் கோலப்போட்டி பரிசளிப்பு விழா நடந்தது.» | G4 @6728 «ரூ. 17. 78 லட்சத்தில்»",A6: @3170 U+0BC8 U+0B83 | G1: @1674 U+0020 U+0BC7 ; @13256 U+0020 U+0BC6 ; @15264 U+0020 U+0BC6,"vowel signs in visual order (ேபாலீசார், ெரயில், ெகாள்முதல்) from legacy encoding; words split at old line breaks (மேல்நி லைப்பள்ளியில்); the C1 hit is a common phrase, not boilerplate"
+eef18ee7c0725ec7,full,fix,C1,C1 English slug at the top @0 «Sivakarthikeyan Reply to Tirupur Collector :» ; related headlines mixed into the article @202 «விஜய்க்கு மட்டும்தான் பொறுப்பு இருக்கா என்ன?» ; @520 «உங்களுக்கு எப்படி ஆக்ஷனிலும் காமெடி வருது?»,,
+3d47555ac0e81130,full,fix,C1;A6,A6 x2: @1545 «ோனாஃ » ; @1604 «்வுஃ » | C1 trailing related headlines @1526 «அதிகரிக்கும் கொரோனாஃ ஒரேநாளில்» ; @1579 «தங்கம் விலை திடீர் உயர்வுஃ»,A6: @1545 U+0BBE U+0B83 ; @1604 U+0BC1 U+0B83,lost colons are inside the headlines
+b2c838dc3fb7809a,full,drop,C5;A6,"A6 x7: @83 «்லைஃ » ; @159 «தல்ஃ » ; @203 «ணம்ஃ » | C5 BBC headline list, no body @10 «பொருளாதார மந்த நிலை சிக்கலில் இருந்து விடுபடுமா சிங்கப்பூர்?»",A6: @83 U+0BC8 U+0B83 ; @159 U+0BCD U+0B83 ; @203 U+0BCD U+0B83,
+85ded505f55ead28,full,fix,A6,A6 lost colon with no space after it @0 «திருப்பூர்ஃதிருப்பூர்»,,missed by the triage rule: ஃ is followed by a consonant here
+1276f2b793e6e6e7,full,clean,,,,
+5fb762c034ff5d74,full,fix,C1,C1 x1: @308 «Sign up to receive our newsletter in you»,,newsletter footer
+00b92e3d43fdfccb,full,clean,,,,
+9190ec930248487d,full,fix,A6;C4;G4,"A6 x8: @1425 «்னைஃ⏎» ; @4785 «ூர்ஃ⏎» ; @5916 «்னைஃ⏎» | C4 about 12 Chennai news items joined, each with two summary bullets @1276 «- அனைத்து பால் பண்ணைகளையும் நேரடியாக சென்று அமைச்சர் பார்வையிட்டார்.» | G4 @13539 «இரவு 11. 30 மணியில்» ; @14130 «20. 08 மில்லி மீட்டராகும்»",A6: @1425 U+0BC8 U+0B83 ; @4785 U+0BCD U+0B83 ; @5916 U+0BC8 U+0B83,"split into separate items; the C1 hits are datelines and common phrases, not boilerplate"
+254518b8ea87dea9,full,fix,G3,"G3 starts mid-story with no intro @0 «நந்தகுமார், கடந்த சில ஆண்டுகளாக»",,
+3a38464e770885cf,full,fix,C3,C3 the title promises the mantras but the text stops after the intro @189 «நவகிரகங்களை வழிபடும் போது»,,
+735031a4dcc7fc5d,full,fix,G1,G1 x20: @64 «ீஸாா்» ; @65 «ஸாா் » ; @103 «றனா்.»,G1: @64 U+0BBE U+0BBE ; @65 U+0BBE U+0BCD ; @103 U+0BBE U+0BCD,"ர் written as ா் throughout (போலீஸாா், வருகின்றனா்), a legacy-font artifact"
+f7394a98834d9c2e,full,clean,,,,
+9b5bc6e506f9a66d,full,fix,G4,G4 times split @272 «இன்று 11. 30 மணிக்கு» ; @379 «இன்று 10. 30 மணிக்கு»,,
+37c9a1205b3bb933,full,drop,D4,"D4 @231 «இது இடையகமாக இருந்தால், அவுட் என்றால் சமமாக உள்ளது» ; modulo rendered as 'percent' @796 «அவுட் பிளஸ் 1 சதவீத இடையக அளவிற்கு»",,machine-translated OS lecture transcript; starts mid-lecture
+63f9cef899d5865e,full,fix,A6;C4,A6 x6: @6 «லம்ஃ⏎» ; @832 «ூர்ஃ⏎» ; @1350 «ணம்ஃ⏎» | C4 about 13 district police and news items joined @825 «பூதலூர்ஃ» ; @3869 «மதுக்கூர்ஃ»,A6: @6 U+0BCD U+0B83 ; @832 U+0BCD U+0B83 ; @1350 U+0BCD U+0B83,split into separate items; lost colons in datelines
+90ef09d808f9b330,full,fix,C1,C1 page header @0 «Last Modified»,,
+f1458fcf9a5e80f6,full,fix,F1;A6;G3,A6 x2: @1277 «்றுஃ » ; @3361 «II-வது» | F1 postal address of a private person at offset 3345 | A6 lost colon in a citation @1269 «(பதிற்றுஃ 81-17)» | G3 text lost at a page break @2335 «என்ற சொல்லை அதற்கு எடுத்துக்»,,OCR of a book foreword; words split by spaces (இலக் கியத்)
+14359b6d0f5fdff2,full,drop,B4;C1,B4 x8: @127 «\n» ; @282 «\n» ; @319 «\n» | C1 site title and comment widget @146 «Online90LeaveaComment on» | B4 literal \n throughout,,"clickbait with words spaced apart to dodge filters (அ தி ர் ச்சி, பா ம் பை)"
+6efd888b48bdd9c7,full,clean,,,,
+586aae83a886a50c,full,fix,C3,"C3 x1: ends @1463 «் கொண்டேன்.⏎ அன்புள்ள ஜெ,» | C3 ends on a bare salutation, next letter cut @617 «அன்புள்ள ஜெ,»",,
+c8a35fd923dc95e1,full,fix,B4;C1,B4 x20: @178 «\n» ; @265 «\n» ; @309 «\n» | C1 nav ticker @311 «2 min ago அரபிந்தோ பார்மாவுக்கு» ; tag line @3034 «Read more about:» ; English summary at the end @3164 «Beyond China in 2021-22»,,literal \n throughout
+7934f3033d478011,full,clean,,,,
+a75c49e642feb642,full,fix,C1,C1 x6: @237 «Don't Miss!» ; @250 «- News சாக்லேட் டே கொண்டாடணும்னு ஆசையாத்» ; @352 «- Technology 144MP கேமரா. . 7900mAh பேட்» | C1 nav block @237 «Don't Miss!» ; related headline mid-article @1874 «ராயல் என்பீல்டு ஹிமாலயன் பிஎஸ்6» ; trailing headlines @3765 «5 லட்சம் யூனிட்னா சும்மா கிடையாது!»,,
+ba5fe2157dc33f46,full,clean,,,,
+dac79b5896cd1e12,full,clean,,,,
+67ef3df1ebe69226,full,fix,A6,A6 x1: @13 «்டிஃ⏎»,A6: @13 U+0BBF U+0B83,lost colon in dateline
+15ad44e8bd0e7b68,full,fix,A6,A6 x1: @8 «ூர்ஃ »,A6: @8 U+0BCD U+0B83,lost colon in dateline
+77b07882834533e5,full,clean,,,,
+1f750756a09593b2,full,fix,C1,C1 x5: @573 «- Technology பெட்ரூம்ல ஒன்னு. . ஹால்ல ஒன» ; @690 «- Movies சொகுசு கார் வாங்கிய விஜய் டிவி » ; @781 «- Finance தக்காளி விலை வேலையை காட்டிவிட்» | C1 nav block @0 «- 8 hrs ago உங்க கடந்த காலத்துல»,,the remedy subheadings are missing; paragraphs remain
+be78e299cf6a26d8,partial,fix,B4;C1;C4;C3,B4 x42: @2959 «\n» ; @5059 «\n» ; @6417 «\n» | C4 about 43 blog posts from one blog joined by literal \n @2920 «ஊமைச்செந்நாய் ஜெயமோகன்உயிர்மை பதிப்பகம்» | C1 @5050 «Posted by» ; asterisk rules @3460 «**********» | C3 posts cut to short excerpts @65745 «உங்களை நேரில் பார்த்தால் ..»,,"partial: read lines 1-260 and the end by sentence; the middle checked by script for personal data, URLs and harmful keywords"
